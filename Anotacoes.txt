@@ -1,0 +1,8 @@
+Instalar AV: pip install virtualenv
+Criar Pasta venv: python -m venv venv
+Ativa o Ambiente Virtual: .\venv\Scripts\activate
+
+Instala Freeze: pip freeze
+Gera Arquivo requirements.txt: pip freeze > requirements.txt
+Instala Bibliotecas do requirements.txt: pip install -r requirements.txt
+
