@@ -5,4 +5,5 @@ from vars import *
 # icone_oficial = caminhoImagens + 'fundo_preto.ico'
 icone_oficial = caminhoImagens + 'oficial.ico'
 logo_oficial = caminhoImagens + 'logo.jpeg'
+img_sair = caminhoImagens + 'sair.png'
 

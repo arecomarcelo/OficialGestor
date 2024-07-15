@@ -8,7 +8,7 @@ from telas.vars import *
 # import html
 # import re
 # import pandas as pd
-# import shutil
+import shutil
 
 # Data Atual
 dtAtual = datetime.now() 
