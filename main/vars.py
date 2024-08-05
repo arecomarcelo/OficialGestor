@@ -71,4 +71,8 @@ caminhoImagens = caminhoInstalacao.replace(r'/', "\\") + 'imagens\\'
 
 QuebraLinha = "\n"
 
+nome_aplicacao = "Gestor de Aplicações 1.0"  
+celular_suporte = "62 9 8322-0264"
+email_suporte = "ti@oficialsport.com.br"
+
 

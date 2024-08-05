@@ -2,7 +2,7 @@ import os
 import time
 import dateutil.relativedelta
 from datetime import datetime, timedelta
-from telas.vars import *
+from vars import *
 
 # import pyperclip
 # import html
