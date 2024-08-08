@@ -65,8 +65,9 @@ dtInicio_Mes = '{}/{}/{}'.format(idia, imes, iano)
 # -- Variáveis de Caminhos ---    ############################
 caminhoInstalacao = os.getcwd() + "\\"
 caminhoAplicacao = f"{caminhoInstalacao}OficialGestor\\"
-caminhoArquivos = caminhoAplicacao.replace(r'/', "\\") + 'arquivos\\'
-caminhoImagens = caminhoInstalacao.replace(r'/', "\\") + 'imagens\\'
+caminhoArquivos = caminhoInstalacao.replace(r'/', "\\") + 'arquivos\\'
+caminhoImagens = caminhoInstalacao.replace(r'/', "\\") + 'IMG\\'
+caminhoImagensProdutos = caminhoInstalacao.replace(r'/', "\\") + 'Imagens\\'
 
 
 QuebraLinha = "\n"

@@ -5,10 +5,13 @@
 # grandparent_path = os.path.dirname(parent_path)
 
 # print(grandparent_path)
+from vars import *
 
-
+from imagens import logo_oficial
 
 import os
 
-desired_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-print(desired_path)
+print(caminhoArquivos)
+
+# desired_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+# print(desired_path)

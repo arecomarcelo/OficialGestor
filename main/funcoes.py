@@ -40,6 +40,9 @@ def DataHoraFormatada():
     hora = FormataHoraAtual() 
     return f'{data} {hora}'
 
+def LimparConsole():
+    os.system('cls')
+
 def LimpaLogs(caminho):
     mesAnterior = (dtAtual + dateutil.relativedelta.relativedelta(months=-1)).strftime("%m")
     mesAnterior = "-" + mesAnterior + "-"
@@ -109,14 +112,14 @@ def CriaPasta(caminho, arquivoLog):
         mensagem = f"Erro ao criar a pasta '{caminho}': {e}"
         RegistraAcao (mensagem, arquivoLog)
         
-def VerificarArquivo(caminho_arquivo, arquivoLog):
+def VerificarArquivo(caminho_arquivo):
     if os.path.exists(caminho_arquivo):
         return True
     else:
         return False   
         
-def ApagarArquivo(caminho_arquivo, arquivoLog):
-    if VerificarArquivo(caminho_arquivo, arquivoLog):
+def ApagarArquivo(caminho_arquivo):
+    if VerificarArquivo(caminho_arquivo):
         os.remove(caminho_arquivo) 
           
 def TrataTelefone (telefone):
